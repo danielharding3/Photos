@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.searchViewController">
+   <children>
+      <Label layoutX="244.0" layoutY="14.0" text="Search">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="79.0" text="Search Type">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Spinner fx:id="typeSpinner" layoutX="161.0" layoutY="78.0" />
+      <DatePicker fx:id="fromDate" editable="false" layoutX="28.0" layoutY="150.0" />
+      <Label layoutX="251.0" layoutY="152.0" prefHeight="24.0" prefWidth="34.0" text="TO">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="endDate" editable="false" layoutX="300.0" layoutY="151.0" />
+      <TextField fx:id="firstTagField" editable="false" layoutX="28.0" layoutY="217.0" prefHeight="27.0" prefWidth="178.0" />
+      <Spinner fx:id="andOrSpinner" layoutX="217.0" layoutY="217.0" prefHeight="27.0" prefWidth="84.0" />
+      <TextField fx:id="secondTagField" editable="false" layoutX="314.0" layoutY="217.0" />
+      <Button fx:id="btnSearch" defaultButton="true" layoutX="502.0" layoutY="217.0" mnemonicParsing="false" text="Search" />
+      <Button fx:id="btnCreateAlbum" layoutX="453.0" layoutY="259.0" mnemonicParsing="false" text="Create New Album" />
+      <Label layoutX="28.0" layoutY="127.0" text="Dates">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="194.0" text="First Tag">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="319.0" layoutY="194.0" text="Second Tag">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="albumTextField" layoutX="273.0" layoutY="259.0" />
+      <Label layoutX="152.0" layoutY="259.0" text="Album Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

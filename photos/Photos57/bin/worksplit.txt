@@ -1,0 +1,9 @@
+                        Task                                       Student Responsible
+- Implement models                                             |     Connor Magee
+- Make Home Screen and Login Functionality                     |     Dan Harding
+- Implement Albums View UI and Controller Functionality        |     Connor Magee
+- Implement Photos View UI and Controller Functionality        |     Dan Harding
+- Implement Photo Details View UI and Controller Functionality |     Connor Magee
+- Implement Search View UI and Controller Functionality        |     Dan Harding
+- Implement add object modal view model                        |     Connor Magee
+- Implement admin view UI and controller functionality         |     Dan Harding

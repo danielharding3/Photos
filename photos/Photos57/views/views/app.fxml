@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="812.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AppController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="236.7999755859375" minWidth="10.0" prefWidth="135.99998779296874" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="506.39998817443853" minWidth="10.0" prefWidth="346.20001220703125" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="310.0000305175781" minWidth="10.0" prefWidth="266.79998779296875" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="476.0" minHeight="0.0" prefHeight="53.600006103515625" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="561.5999908447266" minHeight="0.0" prefHeight="542.3999938964844" vgrow="SOMETIMES" />
+  </rowConstraints>
+  
+  <fx:include fx:id="albums" source="albums.fxml" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+  <fx:include fx:id="photodetails" source="photodetails.fxml" GridPane.rowIndex="1" GridPane.columnIndex="2" />
+  <fx:include fx:id="photosView" source="photosView.fxml" GridPane.rowIndex="1" GridPane.columnIndex="1" />
+  <fx:include fx:id="searchView" source="searchView.fxml" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+</GridPane>
